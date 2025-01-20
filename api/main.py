@@ -35,7 +35,7 @@ def chat(query_input: QueryInput):
 
 @app.post("/upload-doc")
 def upload_and_index_document(file: UploadFile = File(...)):
-    allowed_extensions = ['.pdf', '.docx', '.html']
+    allowed_extensions = ['.pdf', '.docx', '.html', '.txt']
     file_extension = os.path.splitext(file.filename)[1].lower()
     
     if file_extension not in allowed_extensions:

@@ -2,9 +2,11 @@ from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader, Un
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
+from langchain.schema import Document
 from typing import List
 from langchain_core.documents import Document
 import os
+import requests
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
@@ -20,17 +22,56 @@ embedding_function = OpenAIEmbeddings(api_key=openai_key)
 vectorstore = Chroma(persist_directory="./chroma_db", embedding_function=embedding_function)
 
 def load_and_split_document(file_path: str) -> List[Document]:
-    if file_path.endswith('.pdf'):
-        loader = PyPDFLoader(file_path)
-    elif file_path.endswith('.docx'):
-        loader = Docx2txtLoader(file_path)
-    elif file_path.endswith('.html'):
-        loader = UnstructuredHTMLLoader(file_path)
+    if file_path.endswith('.txt'):
+        with open(file_path, 'r', encoding='utf-8') as f:
+            urls = [line.strip() for line in f if line.strip()]
+
+        urls = [url if url.startswith("http") else "https://" + url for url in urls]
+        docs = []
+        failed_urls = []
+        airline_name = os.path.splitext(file_path)[0]
+        for i, url in enumerate(urls, start=1):
+            print(f"[{i}/{len(urls)}] Fetching: {url}")
+            try:
+                response = requests.get(url, timeout=30)
+                if response.status_code == 200:
+                    raw_text = response.text
+                    # Placeholder for parsing logic
+                    title, source_url, body_text = "Sample Title", url, raw_text
+
+                    if not body_text.strip():
+                        print(f"  -> No body content found. Skipping URL.")
+                        failed_urls.append(url)
+                        continue
+
+                    # Add metadata
+                    metadata = {
+                        "airline": airline_name,
+                        "title": title or "No Title",
+                        "source_url": source_url or "No Source URL",
+                    }
+
+                    # Create Document using LangChain
+                    document = Document(
+                        page_content=body_text,
+                        metadata=metadata
+                    )
+
+                    docs.append(document)
+                else:
+                    print(f"  -> Failed with status code {response.status_code}")
+                    failed_urls.append(url)
+
+            except Exception as e:
+                print(f"  -> Error fetching URL: {e}")
+                failed_urls.append(url)
+                continue
+
+
     else:
         raise ValueError(f"Unsupported file type: {file_path}")
 
-    documents = loader.load()
-    return text_splitter.split_documents(documents)
+    return text_splitter.split_documents(docs)
 
 def index_document_to_chroma(file_path: str, file_id: int) -> bool:
     try:

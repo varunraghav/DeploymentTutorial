@@ -85,3 +85,216 @@ INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1
 INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
 INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 INFO:root:Session ID: 4e40382b-a2ab-49f2-9949-33f6d16200fd, AI Response: I apologize for any confusion. While you may indeed check up to 10 bags on certain American Airlines flights, it's important to note that the number of bags you can check for free is often limited to 1 or 2, depending on your ticket type, loyalty status, and the specific route. Additional bags typically incur extra fees. Checking more than the standard allowance often requires paying additional baggage fees. For precise details regarding free checked bags and any fees, it's best to consult your ticket information or the airline's specific policy for your flight.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: None, User Query: Tell me about american express personal cards, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, AI Response: The Delta SkyMiles® Personal American Express Cards are designed to enhance your travel experience with Delta Air Lines. These cards offer various benefits and rewards tailored to fit different travel needs and preferences. Cardholders can earn SkyMiles through everyday purchases, which can be redeemed for flights, seat upgrades, and other travel-related expenses. The cards also often come with additional perks such as priority boarding, free checked bags, and access to Delta Sky Club lounges, depending on the card tier. Each card has its own set of features, benefits, and annual fees, allowing you to choose the one that best matches your travel habits and financial goals. To explore the specific options and find the card that suits you best, you can visit the Delta Air Lines website.
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, User Query: Can I bring my veena on the flight?, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, AI Response: You can bring your veena on a Delta or Delta Connection flight as a carry-on item, provided it meets specific requirements. Your veena must fit in the overhead bin or other approved storage locations within the cabin and must adhere to the size and weight restrictions for carry-on items. If overhead bin space is limited, or if you prefer, you can also check your instrument at the gate.
+
+If your veena is too large to fit in the overhead bin, you might need to purchase an extra seat to accommodate it, ensuring it is properly secured and does not obstruct any exits or passenger views. To get more details or assistance with your specific situation, it would be best to contact Delta's Reservations.
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, User Query: Can I change flights?, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, AI Response: Yes, you can change flights with Delta Air Lines, but the ability to do so without fees depends on the type of ticket you have purchased. If you have purchased a Main Cabin or above ticket for a flight originating in the U.S. or Canada, you can change your flight without incurring change fees. Any difference in fare will apply, and if your new flight is cheaper, the remaining value will be issued as an eCredit for future use, typically valid for one year from the date of purchase.
+
+For Basic Economy tickets, changes are generally not allowed except within the 24-Hour Risk-Free Cancellation window, where you can cancel or change your ticket for a full refund within 24 hours of booking.
+
+To change your flight, you can visit the Delta Air Lines website, use the mobile app, or contact Delta's customer service for assistance.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, User Query: Compare upgrade policy of american and delta, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, AI Response: American Airlines and Delta Air Lines both offer upgrade options to their passengers, but their policies and availability differ. Here's a comparison of their upgrade policies:
+
+**American Airlines:**
+1. **Systemwide Upgrades:** These can be used to upgrade most Business, Economy, or Premium Economy fares to the next class of service on both American and British Airways flights. They are available to AAdvantage® elite status members and can be used on one-way travel for up to 3 flight segments.
+   
+2. **Complimentary Upgrades:** Available to AAdvantage® status members for travel within North America. These upgrades are subject to availability.
+
+3. **Mileage Upgrade Awards:** Allow passengers to use AAdvantage miles to upgrade on American Airlines marketed and operated flights. These are not available on codeshare, award, or Basic Economy fare tickets.
+
+4. **Cabin Specifics:** On 3-cabin aircraft, upgrades from Economy or Premium Economy go to Business. On 2-cabin aircraft, upgrades from Economy go to First for domestic flights or to Business for short-haul international flights.
+
+**Delta Air Lines:**
+1. **Complimentary Upgrades:** Available for Medallion® members on most paid tickets, except Basic Economy, within the U.S. 50, select flights to/from Canada, and certain other regions. Upgrades are subject to availability and are prioritized based on Medallion status, fare class, and other factors.
+
+2. **Global and Regional Upgrade Certificates:** These are offered to Diamond and Platinum Medallion members and can be used to upgrade on both international and domestic flights, respectively. The availability of these upgrades can be limited, and they must be requested.
+
+3. **Mileage Upgrades:** Delta SkyMiles members can use miles to upgrade their tickets on eligible flights. This is subject to availability, and not all fare classes are eligible for mileage upgrades.
+
+4. **Cabin Specifics:** Upgrades can be from Main Cabin to Comfort+®, First Class, or Delta One® depending on the flight and aircraft configuration.
+
+Both airlines prioritize upgrades for their elite status members and have systems in place to manage upgrade availability. American offers more options for using systemwide upgrades on partner flights, while Delta's upgrade certificates provide flexibility for its elite members. Availability and specifics can vary, so it's always a good idea to check directly with the airline for the most current information.
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, User Query: So what fare classes are eligible for mileage upgrades in delta then?, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, AI Response: Delta Air Lines allows mileage upgrades on specific fare classes, but the eligibility can vary based on the type of cabin you're upgrading to and the region of travel. Generally, the following applies:
+
+1. **For Domestic and International Flights:**
+   - Main Cabin fare classes that are typically eligible for mileage upgrades include Y, B, M, H, Q, K, L, U, T, X, and V. Note that eligibility may change based on the route and aircraft.
+
+2. **Premium Select to Delta One Upgrades:**
+   - Premium Select fare classes (classes P, A, and G) may be eligible for upgrades to Delta One on certain international routes.
+
+3. **Basic Economy Fares:**
+   - Basic Economy fares (class E) are not eligible for mileage upgrades.
+
+It's important to note that mileage upgrades are subject to availability and not all eligible fare classes guarantee an available upgrade. Additionally, Delta may have specific promotions or changes to their upgrade policies, so it's best to verify eligibility when booking or through Delta's customer service.
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, User Query: So which airline is better if I want frequent upgrades, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, AI Response: Choosing between American Airlines and Delta Air Lines for frequent upgrades depends on your travel patterns and preferences, as well as your status within each airline's loyalty program. Here's a comparison to help you decide:
+
+**American Airlines:**
+
+1. **Upgrade Availability:** American offers complimentary upgrades to its AAdvantage elite members on flights within North America. Systemwide upgrades are also available, which can be used on international flights, but these are limited and provided annually to Executive Platinum members.
+
+2. **Upgrade Priority:** Priority for upgrades is given based on elite status level, fare class, and the time of the upgrade request.
+
+3. **Mileage Upgrades:** Available for a wide range of fare classes, but not for Basic Economy. Upgrades can be more challenging to secure due to high demand and limited availability.
+
+**Delta Air Lines:**
+
+1. **Complimentary Upgrades:** Available for Medallion members on most paid tickets, except Basic Economy, within the U.S. 50 and select international routes. Delta tends to have a robust system for complimentary upgrades with clear prioritization.
+
+2. **Global and Regional Upgrade Certificates:** Offered to Diamond and Platinum Medallion members. These certificates can be used for international and domestic flights respectively and offer more certainty of an upgrade compared to complimentary requests.
+
+3. **Upgrade Priority:** Based on Medallion status, fare class, and the time of booking. Delta's upgrade priority system is well-regarded for its transparency.
+
+**Considerations:**
+
+- **Elite Status:** Frequent upgrades are more accessible if you hold a higher elite status with either airline. If you fly frequently with one airline, it would be beneficial to concentrate your travel with them to attain and maintain a higher status level.
+
+- **Route and Aircraft:** Consider your typical routes and the aircraft operated by each airline. Delta may provide more options if you frequently fly within the U.S. and to select international destinations due to its extensive domestic network and upgrade policies.
+
+- **Overall Experience:** Consider other factors like customer service, in-flight experience, and airport lounges, as these can also affect your overall satisfaction with the frequent upgrades.
+
+Ultimately, if you value a more structured and transparent upgrade process, Delta might be the better option. However, if you prefer more international upgrade opportunities with the potential use of systemwide upgrades, American might be more appealing.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /embeddings in 3.182000 seconds
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /embeddings in 8.750000 seconds
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /embeddings in 8.370000 seconds
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /embeddings in 9.327000 seconds
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /embeddings in 8.232000 seconds
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /embeddings in 5.413000 seconds
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /embeddings in 9.814000 seconds
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /embeddings in 4.300000 seconds
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, User Query: I am flying on Qatar, I lost my baggage, what should I do, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, AI Response: If you've lost your baggage while flying with Qatar Airways, you should follow these steps to report and resolve the issue:
+
+1. **Report the Loss Immediately:**
+   - Go to the Qatar Airways baggage service desk at the airport as soon as you discover your baggage is missing. This is typically located in the baggage claim area.
+   - File a Property Irregularity Report (PIR). You'll need to provide your baggage claim tag and your boarding pass.
+
+2. **Keep Documentation:**
+   - Obtain a copy of the Property Irregularity Report (PIR) and a reference number. This will be necessary for tracking your baggage and for any future claims.
+
+3. **Online Tracking:**
+   - You can track the status of your baggage using Qatar Airways' online baggage tracing service. Visit their [Lost and Found page](https://www.qatarairways.com/en/lost-and-found.html) for more information.
+
+4. **Follow Up:**
+   - If your baggage is not found immediately, Qatar Airways will typically provide updates. They may contact you regarding the delivery of your baggage if it is located.
+
+5. **Claim for Compensation:**
+   - If your baggage is not found after 21 days, it is considered lost, and you can file a claim for compensation. You will need to contact Qatar Airways' customer service or visit their website to begin this process.
+
+6. **Prepare for Claims:**
+   - Keep receipts and documentation for any essential items you needed to purchase due to the delay or loss of your baggage, as you might be eligible for reimbursement.
+
+Ensure you provide accurate and complete information when reporting your lost baggage to assist in a swift resolution.
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, User Query: Do you have customer service number?, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, AI Response: I don't have direct access to current databases or contact lists, but you can typically find Qatar Airways' customer service number on their official website under the "Help" or "Contact Us" section. Alternatively, you may find contact information on your booking confirmation email or through their mobile app. It's also helpful to check the [Help section](https://www.qatarairways.com/en-us/help.html) of their website for additional support options and regional contact numbers.
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, User Query: compare corporate travel policies , Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 9be6fa83-8a9e-4293-8d81-fdd1b2284e85, AI Response: When comparing corporate travel policies between airlines like American Airlines, Delta Air Lines, and Qatar Airways, consider the key features each offers to businesses and frequent corporate travelers. These programs are designed to provide benefits and streamline travel management for companies. Here’s a comparison:
+
+### **American Airlines – Business Extra:**
+
+1. **Points-Based Rewards:** 
+   - Companies earn Business Extra points for every dollar spent on travel. Points can be redeemed for flights, upgrades, and other travel-related perks.
+
+2. **Employee Benefits:**
+   - Employees traveling on business may enjoy priority boarding, free checked baggage, and other amenities depending on their status and fare class.
+
+3. **Flexibility and Control:**
+   - Access to a dedicated business portal for tracking travel expenses and managing rewards.
+
+4. **Global Network:**
+   - Extensive network through the oneworld alliance, providing a wide range of destinations.
+
+### **Delta Air Lines – Delta Edge:**
+
+1. **Customizable Program:**
+   - Tailored to meet the specific needs of large and small businesses with the ability to manage travel costs and policies.
+
+2. **Corporate Priority Benefits:**
+   - Includes prioritized support, rebooking, and boarding for business travelers.
+
+3. **SkyBonus Program:**
+   - Small to mid-sized companies earn points for every dollar spent, which can be redeemed for travel rewards.
+
+4. **Global Reach:**
+   - Access to Delta’s extensive network and SkyTeam alliance partners.
+
+### **Qatar Airways – Beyond Business:**
+
+1. **Qrewards System:**
+   - Companies earn Qrewards based on spend, which can be redeemed for flights, upgrades, and more. The program is tiered, offering increasing benefits as companies spend more.
+
+2. **Flexibility:**
+   - Easy online management tools for tracking travel spend and managing rewards.
+
+3. **Priority Services:**
+   - Participants enjoy priority check-in, boarding, and baggage handling, enhancing the travel experience for corporate travelers.
+
+4. **Global Coverage:**
+   - Access to a vast network of destinations through Qatar Airways' extensive route map and partnerships with other airlines.
+
+### **Comparison Considerations:**
+
+- **Network and Alliances:** Consider the airline's network and their alliances to determine the coverage and flexibility offered for international travel.
+- **Reward Structure:** Evaluate the rewards system and how well it aligns with your company's travel patterns and needs.
+- **Priority Services:** Assess the priority services and benefits available to business travelers to ensure a smooth travel experience.
+- **Program Flexibility:** Look for ease of managing the program, tracking expenses, and redeeming rewards.
+
+Choosing the right corporate travel program depends on your business’s specific travel needs, preferred routes, and the benefits that best align with your corporate travel policies.
