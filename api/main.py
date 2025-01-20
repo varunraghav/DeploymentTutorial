@@ -4,12 +4,23 @@ from api.langchain_utils import get_rag_chain
 from api.db_utils import insert_application_logs, get_chat_history, get_all_documents, insert_document_record, delete_document_record
 from api.chroma_utils import index_document_to_chroma, delete_doc_from_chroma
 from fastapi import UploadFile, File, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+
 import shutil
 import os
 import uuid
 import logging
+
 logging.basicConfig(filename='app.log', level=logging.INFO)
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["https://flightgpt.streamlit.app"],  # Allow Streamlit Cloud app
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.post("/chat", response_model=QueryResponse)
 def chat(query_input: QueryInput):
